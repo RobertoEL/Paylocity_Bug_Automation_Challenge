@@ -1,0 +1,18 @@
+# Selenium for browser automation
+selenium          # always pulls the latest stable version
+
+# Pytest for test execution
+pytest>=8.4.0,<9.0          # latest stable series
+pytest-html==3.2.0          # HTML reports
+pytest-xdist>=3.8.0         # Parallel test execution (optional but useful)
+pytest-order==1.2.0         # Optional: to control test order
+
+# Allure reporting
+allure-pytest==2.10.0
+
+# Browser driver management (optional but recommended)
+webdriver-manager>=4.0.2,<5.0
+
+# Utilities
+requests==2.31.0            # For API testing if needed
+python-dotenv==1.1.1        # For environment variables/config
