@@ -1,0 +1,10 @@
+{
+    "base_url": "https://wmxrwq14uc.execute-api.us-east-1.amazonaws.com/Prod/Account/LogIn",
+    "browser": "chrome",
+    "login": {
+        "username": "TestUser854",
+        "password": "n7{A1l)0NM!u"
+    },
+    "timeout": 10,
+    "report_path": "reports/test_report.html"
+}
