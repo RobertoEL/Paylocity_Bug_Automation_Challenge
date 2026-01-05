@@ -7,9 +7,9 @@ import pytest
 import json
 from datetime import datetime
 from selenium.common.exceptions import WebDriverException
-from utils.driver_factory import create_driver
-from utils.logger import create_logger
-from utils.screenshot import take_screenshot
+from Utils.driver_factory import create_driver
+from Utils.logger import create_logger
+from Utils.screenshot import take_screenshot
 
 with open("config/config.json") as f:
     config = json.load(f)
