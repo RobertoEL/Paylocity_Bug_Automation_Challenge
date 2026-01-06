@@ -7,5 +7,6 @@ with open("config/config.json") as f:
 def test_valid_login(browser):
     login_page = LoginPage(browser)
     login_page.open()
-    login_page.login(config['login']['username'], config['login']['password'])
+    #login_page.login(config['login']['username'], config['login']['password'])
+    login_page.login('TestUser854', 'n7{A1l)0NM!u')
     assert login_page.is_success_message_displayed(), "Login success message not found"
