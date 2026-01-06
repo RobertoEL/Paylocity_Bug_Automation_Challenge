@@ -1,4 +1,4 @@
-from pages.login_page import LoginPage
+from Pages.login_page import LoginPage
 import json
 
 with open("config/config.json") as f:
