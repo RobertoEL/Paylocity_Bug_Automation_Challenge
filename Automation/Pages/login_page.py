@@ -6,6 +6,7 @@ class LoginPage(BasePage):
     USERNAME_INPUT = (By.ID, "input[id='Username']")
     PASSWORD_INPUT = (By.ID, "input[id='Password']")
     LOGIN_BUTTON = (By.CSS_SELECTOR, "button[type='submit']")
+    ADD_EMPLOYEE_BTN = (By.CSS_SELECTOR, "button[id='add']")
 
     def open(self):
         self.open_url(self.URL)
@@ -14,3 +15,6 @@ class LoginPage(BasePage):
         self.send_keys(self.USERNAME_INPUT, username)
         self.send_keys(self.PASSWORD_INPUT, password)
         self.click(self.LOGIN_BUTTON)
+
+    def is_login_successful(self):
+        return self.is_element_displayed(self.ADD_EMPLOYEE_BTN)
