@@ -1,5 +1,5 @@
 from selenium.webdriver.common.by import By
-from pages.base_page import BasePage
+from Pages.base_page import BasePage
 
 class MainPage(BasePage):
     ADD_EMPLOYEE_BTN = (By.CSS_SELECTOR, "button[id='add']")
