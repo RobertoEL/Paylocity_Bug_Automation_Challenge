@@ -11,3 +11,5 @@ On a side note, I found some behavior that I am not sure if it would be consider
 I created simple CRUD automated tests. I test the login, the adding of a new employee, the editing of an employee and the deleting of an employee.
 
 Much can be done to improve the quality of the code liki more refactoring, the use of a page object model, or more advanced workflows, but for the time being I consider it a concise example of my skills with limited time available.
+
+For running the tests all files should be downloaded on the same folder and then simply run the ones with filenames starting with 'Test_'.
